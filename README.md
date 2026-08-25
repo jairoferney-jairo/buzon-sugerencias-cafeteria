@@ -2,7 +2,9 @@
 
 Backend en Node.js + Express que recibe sugerencias sobre el servicio de la cafetería, las guarda en memoria y las muestra en un panel de administración.
 
-**URL pública:** https://buzon-sugerencias-cafeteria.onrender.com
+**URL pública (formulario):** https://buzon-sugerencias-cafeteria.onrender.com
+
+**Panel de administración (ver resultados del formulario):** https://buzon-sugerencias-cafeteria.onrender.com/admin.html
 
 **Repositorio:** https://github.com/jairoferney-jairo/buzon-sugerencias-cafeteria
 
