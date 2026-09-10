@@ -20,19 +20,6 @@ app.get('/api/sugerencias', (req, res) => {
   res.json(sugerencias);
 });
 
-app.use((req, res) => {
-  res.status(404).json({ error: 'Ruta no encontrada' });
-});
-
-app.use((req, res) => {
-  res.status(404).json({ error: 'Ruta no encontrada' });
-});
-
-app.use((req, res) => {
-  // ← este está de más
-  res.status(404).json({ error: 'Ruta no encontrada' });
-});
-
 app.listen(process.env.PORT || 3000, () => {
   console.log('Buzón activo');
 });
