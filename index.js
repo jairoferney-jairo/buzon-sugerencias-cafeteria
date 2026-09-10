@@ -12,7 +12,7 @@ app.post('/api/sugerencias', (req, res) => {
     return res.status(400).json({ error: 'El mensaje es obligatorio' });
   }
 
-  sugerencias.push({ nombre, categoria, mensaje, fecha: new Date() });
+  sugerencias.push({ nombre, categoria,prioridad, mensaje, fecha: new Date() });
   res.status(201).json({ ok: true });
 });
 
