@@ -19,6 +19,7 @@
           div.innerHTML = `
           <p><strong>${s.categoria}</strong></p>
           <p><strong>${s.prioridad}</strong></p>
+          ${s.urgente ? '<p>🔴 <strong>URGENTE</strong></p>' : ''}
           <p>${s.mensaje}</p>
           <small>${s.nombre || 'Anónimo'}</small>
         `;
